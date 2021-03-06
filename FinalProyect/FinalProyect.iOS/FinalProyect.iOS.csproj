@@ -77,9 +77,6 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
       <Visible>false</Visible>
     </ImageAsset>
@@ -113,6 +110,7 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ICON-1.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -139,5 +137,6 @@
     <BundleResource Include="Resources\Kobe.jpg" />
     <BundleResource Include="Resources\LOGO.png" />
     <BundleResource Include="Resources\LOGO2.png" />
+    <BundleResource Include="Resources\ICON.png" />
   </ItemGroup>
 </Project>

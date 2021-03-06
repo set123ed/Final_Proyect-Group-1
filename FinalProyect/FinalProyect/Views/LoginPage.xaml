@@ -15,6 +15,7 @@
                 <RowDefinition Height="60"/>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="50"/>
+
             </Grid.RowDefinitions>
             
         <Image Source="LOGO"  HorizontalOptions="Center"  VerticalOptions="EndAndExpand" Grid.Row="0"/>
@@ -28,8 +29,7 @@
 
             <Button Text="Login" TextColor="White" HeightRequest="50"  FontSize="16"
                     VerticalOptions="EndAndExpand" BackgroundColor="#D32F2F"
-                    HorizontalOptions="FillAndExpand" Grid.Row="4" CornerRadius="20"
-                    g />
+                    HorizontalOptions="FillAndExpand" Grid.Row="4" CornerRadius="20"/>
 
         <Button Text="Sign up" TextColor="Red" Grid.Row="5" FontSize="14" FontFamily="Arial" />
          </Grid>
