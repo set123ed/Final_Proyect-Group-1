@@ -133,4 +133,11 @@
       <Name>FinalProyect</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Harden.jpg" />
+    <BundleResource Include="Resources\Davis1.jpg" />
+    <BundleResource Include="Resources\Kobe.jpg" />
+    <BundleResource Include="Resources\LOGO.png" />
+    <BundleResource Include="Resources\LOGO2.png" />
+  </ItemGroup>
 </Project>

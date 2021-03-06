@@ -4,9 +4,36 @@
              x:Class="FinalProyect.Views.LoginPage"
               xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
               ios:Page.UseSafeArea="true">
+    
     <ScrollView>
 
+        <Grid BackgroundColor="#FFFFFF" Margin="20,0,20,0" VerticalOptions="CenterAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="180"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            
+        <Image Source="LOGO"  HorizontalOptions="Center"  VerticalOptions="EndAndExpand" Grid.Row="0"/>
+        <Image Source="LOGO2" VerticalOptions="StartAndExpand"  HorizontalOptions="CenterAndExpand" Grid.Row="1" />
+
+            <Entry Placeholder="Username" VerticalTextAlignment="Center"
+               FontSize="16"  HorizontalOptions="FillAndExpand" Grid.Row="2" />
+
+            <Entry Placeholder="Password" VerticalTextAlignment="Center" FontSize="16"
+                   HorizontalOptions="FillAndExpand"  Grid.Row="3" IsPassword="True"  />
+
+            <Button Text="Login" TextColor="White" HeightRequest="50"  FontSize="16"
+                    VerticalOptions="EndAndExpand" BackgroundColor="#D32F2F"
+                    HorizontalOptions="FillAndExpand" Grid.Row="4" CornerRadius="20"
+                     />
+
+        <Button Text="Sign up" TextColor="Red" Grid.Row="5" FontSize="14" FontFamily="Arial" />
+         </Grid>
+
     </ScrollView>
-    <ContentPage.Content>
-    </ContentPage.Content>
+    
 </ContentPage>
